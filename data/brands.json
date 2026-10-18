@@ -1,0 +1,132 @@
+[
+  {
+    "key": "oak-tree-books",
+    "name": "Oak Tree Books",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/oak-tree-books.png",
+    "url": "https://oaktreebooks.uk/",
+    "blurb": "Andrews UK’s premium imprint.",
+    "showInStrip": true
+  },
+  {
+    "key": "acorn-books",
+    "name": "Acorn Books",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/acorn-books.png",
+    "url": "https://acornbooks.uk/",
+    "blurb": "",
+    "showInStrip": true
+  },
+  {
+    "key": "matthew-james-publishing",
+    "name": "Matthew James Publishing",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/matthew-james-publishing.png",
+    "url": "https://matthewjamespublishing.com/",
+    "blurb": "",
+    "showInStrip": true
+  },
+  {
+    "key": "tiny-tree",
+    "name": "Tiny Tree",
+    "type": "children",
+    "tag": "Children’s books",
+    "logo": "/media/imprints/tiny-tree.png",
+    "url": "https://tinytreebooks.com/",
+    "blurb": "",
+    "showInStrip": true
+  },
+  {
+    "key": "chinbeard-books",
+    "name": "Chinbeard Books",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/chinbeard-books.png",
+    "url": "https://chinbeardbooks.com/",
+    "blurb": "A small publisher with big ideas, focusing on heritage properties and books that might not find a home elsewhere.",
+    "showInStrip": true
+  },
+  {
+    "key": "arthur-h-stockwell",
+    "name": "Arthur H Stockwell",
+    "type": "standalone",
+    "tag": "Publishers since 1898",
+    "logo": "/media/imprints/arthur-h-stockwell.png",
+    "url": "https://ahstockwell.com/",
+    "blurb": "A separate standalone book publishing company, publishing first-time authors for over 125 years.",
+    "showInStrip": true
+  },
+  {
+    "key": "rejoice-publications",
+    "name": "Rejoice Publications",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/rejoice-publications.png",
+    "url": "",
+    "blurb": "",
+    "showInStrip": true
+  },
+  {
+    "key": "love-stories",
+    "name": "Love Stories",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/love-stories.png",
+    "url": "https://love-stories.uk/",
+    "blurb": "",
+    "showInStrip": true
+  },
+  {
+    "key": "house-of-erotica",
+    "name": "House of Erotica",
+    "type": "imprint",
+    "tag": "Imprint",
+    "logo": "/media/imprints/house-of-erotica.png",
+    "url": "https://houseoferotica.uk/",
+    "blurb": "",
+    "showInStrip": true
+  },
+  {
+    "key": "auk-studios",
+    "name": "AUK Studios Ltd",
+    "type": "sister",
+    "tag": "Sister company",
+    "logo": "/media/brands/auk-studios.png",
+    "url": "https://aukstudios.uk/",
+    "blurb": "An award-winning audiobook and audio drama team, many of whom have worked with the BBC and Audible, plus documentaries, feature films and marketing videos.",
+    "showInStrip": false
+  },
+  {
+    "key": "pixel-games-uk",
+    "name": "Pixel Games UK",
+    "type": "games-brand",
+    "tag": "Games brand",
+    "logo": "/media/brands/pixel-games-uk.png",
+    "url": "https://pixelgames.uk/",
+    "blurb": "The brand AUK distributes and publishes games under, on Steam, Apple, Google, Antstream, Blaze/Evercade and more.",
+    "showInStrip": false
+  },
+  {
+    "key": "imagine-software",
+    "name": "Imagine Software",
+    "type": "sister",
+    "tag": "Sister company",
+    "logo": "/media/brands/imagine-software.png",
+    "url": "https://imaginesoftware.uk/",
+    "blurb": "A separate standalone sister company for new current-gen game development.",
+    "showInStrip": false
+  },
+  {
+    "key": "smart-magazine-company",
+    "name": "The Smart Magazine Company Ltd",
+    "type": "joint-venture",
+    "tag": "Joint venture",
+    "logo": "/media/brands/smart-magazine-company.png",
+    "url": "",
+    "blurb": "A joint venture between Andrews UK Limited and Kids Active Media Ltd, building on the success of POPIN.",
+    "showInStrip": false
+  }
+]
