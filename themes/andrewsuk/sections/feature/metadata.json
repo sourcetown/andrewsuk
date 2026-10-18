@@ -1,0 +1,70 @@
+{
+  "name": "feature",
+  "displayName": "Feature",
+  "description": "A featured record with text and artwork.",
+  "component": "FeatureSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "body",
+      "type": "string",
+      "label": "Body",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "tint",
+      "type": "boolean",
+      "label": "Tint",
+      "description": "Use the tinted background",
+      "required": false
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "logo",
+      "type": "image",
+      "label": "Logo",
+      "description": "Artwork",
+      "required": false
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "label": "Name",
+      "description": "Name used as the image alt text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

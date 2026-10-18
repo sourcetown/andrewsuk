@@ -1,0 +1,49 @@
+{
+  "name": "service-feature",
+  "displayName": "Service feature",
+  "description": "Related brands or a testimonial for a service.",
+  "component": "ServiceFeatureSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "featureTitle",
+      "type": "string",
+      "label": "Feature title",
+      "description": "Heading when a feature is set",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "featureText",
+      "type": "string",
+      "label": "Feature text",
+      "description": "Text under the feature title",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "relatedBrands",
+      "type": "array",
+      "label": "Related brands",
+      "description": "Brand keys",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "testimonial",
+      "type": "string",
+      "label": "Testimonial",
+      "description": "Testimonial key",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

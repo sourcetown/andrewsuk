@@ -1,0 +1,12 @@
+{
+  "tint": true,
+  "eyebrow": "First-time authors",
+  "title": "Looking to publish your first book?",
+  "body": "Arthur H Stockwell has provided a personalised author publishing service for over 125 years.",
+  "cta": {
+    "label": "Visit A H Stockwell",
+    "path": "https://ahstockwell.com/"
+  },
+  "logo": "/media/imprints/arthur-h-stockwell.png",
+  "name": "Arthur H Stockwell"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "service-hero",
+  "displayName": "Service hero",
+  "description": "Hero for a single service.",
+  "component": "ServiceHeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Service name",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "label": "Headline",
+      "description": "Heading, falling back to the title",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "body",
+      "type": "string",
+      "label": "Body",
+      "description": "HTML body",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "summary",
+      "type": "string",
+      "label": "Summary",
+      "description": "Used when body is empty",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "initial",
+      "type": "string",
+      "label": "Initial",
+      "description": "Letter in the artwork",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

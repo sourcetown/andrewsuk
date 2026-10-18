@@ -1,0 +1,78 @@
+{
+  "title": "Andrews UK",
+  "description": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor",
+  "keywords": [],
+  "theme": {
+    "name": "andrewsuk",
+    "primaryColor": "#17795F",
+    "secondaryColor": "#24C494",
+    "backgroundColor": "#ffffff",
+    "textColor": "#111827",
+    "fontFamily": "Manrope, system-ui, sans-serif",
+    "googleFont": "Manrope",
+    "googleFontWeights": [
+      "400",
+      "500",
+      "600",
+      "700",
+      "300"
+    ],
+    "header": "components/Header.vue",
+    "footer": "components/Footer.vue"
+  },
+  "author": "",
+  "domain": "",
+  "favicon": "",
+  "favicons": {
+    "svg": "",
+    "default": "",
+    "appleTouchIcon": "",
+    "androidChrome192": "",
+    "androidChrome512": "",
+    "favicon16": "",
+    "favicon32": ""
+  },
+  "social": [],
+  "deployment": {
+    "type": "git",
+    "custom": true,
+    "local": {
+      "outputPath": "sites/andrewsuk/dist"
+    },
+    "git": {
+      "enabled": true,
+      "repoUrl": "https://github.com/sourcetown/andrewsuk.git",
+      "branch": "main",
+      "buildBranch": "gh-pages",
+      "remote": "origin",
+      "autoCommit": true,
+      "commitMessage": "Update {{filename}}"
+    },
+    "s3": {
+      "bucket": "greemo-andrewsuk",
+      "region": "us-east-1",
+      "accessKeyId": "",
+      "secretAccessKey": ""
+    },
+    "ssh": {
+      "host": "",
+      "username": "",
+      "port": 22,
+      "privateKey": "",
+      "password": "",
+      "remotePath": ""
+    },
+    "cloudflare": {
+      "hostname": ""
+    },
+    "dataApi": {
+      "publicBase": ""
+    }
+  },
+  "media": {
+    "storage": "s3"
+  },
+  "variables": [],
+  "siteUrl": "https://andrewsuk.com",
+  "devServerPort": 7001
+}

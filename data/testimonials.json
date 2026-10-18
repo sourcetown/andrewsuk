@@ -1,0 +1,51 @@
+[
+  {
+    "key": "hazel-cushion",
+    "name": "Hazel Cushion",
+    "role": "Managing Director, Accent Press Ltd",
+    "quote": "Working with Andrews UK Ltd enabled us to fast-track our eBook programme and develop a significant new revenue stream.",
+    "featured": true
+  },
+  {
+    "key": "herbie-brennan",
+    "name": "Herbie Brennan",
+    "role": "Best-selling author whose first independent eBook was published by AUK",
+    "quote": "I couldn’t believe the speed of the conversion operation. … I signed the contract on Tuesday and saw the eBook offered for sale the following Friday. It was amazing and yet there was not so much as a hint of a rushed job.",
+    "featured": false
+  },
+  {
+    "key": "darton-longman-and-todd",
+    "name": "Darton Longman and Todd",
+    "role": "Publisher",
+    "quote": "Andrews UK have provided DLT with an eminently straightforward, time saving way of entering the eBook market.",
+    "featured": false
+  },
+  {
+    "key": "priscilla-hannaford",
+    "name": "Priscilla Hannaford",
+    "role": "Brilliant Publications",
+    "quote": "Andrews UK is a pain free way of getting eBook sales for your books. They take the files, convert them to different formats and do all the distribution for you. Paul and the team are real lateral thinkers and are always suggesting new ways to increase sales. They pay promptly too!",
+    "featured": false
+  },
+  {
+    "key": "chris-cowlin",
+    "name": "Chris Cowlin",
+    "role": "Apex Publishing Ltd.",
+    "quote": "We have been dealing with Andrews UK Ltd for the last few years and have been very happy with their service. They convert eBooks in record time, communicate very well, sort any problems within minutes and send sales report every month on time.",
+    "featured": false
+  },
+  {
+    "key": "andrew-mark-sewell",
+    "name": "Andrew Mark Sewell",
+    "role": "Managing Director, B7 Media",
+    "quote": "AUK have handled the complete distribution solution for our audiobook releases for some years now and we’ve been continually impressed with their professionalism, unwavering support and dedication to strike the best distribution deal on our behalf.",
+    "featured": false
+  },
+  {
+    "key": "victoria-blisse",
+    "name": "Victoria Blisse",
+    "role": "Award Winning Author",
+    "quote": "AUK are not only wonderfully professional they are friendly too. Nothing is too much trouble for their effective, professional and approachable staff. … I would not hesitate to recommend them to any author looking for a publisher.",
+    "featured": false
+  }
+]

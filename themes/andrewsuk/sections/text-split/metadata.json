@@ -1,0 +1,49 @@
+{
+  "name": "text-split",
+  "displayName": "Text split",
+  "description": "A heading beside a paragraph.",
+  "component": "TextSplitSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "body",
+      "type": "string",
+      "label": "Body",
+      "description": "Paragraph",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "bodyField",
+      "type": "string",
+      "label": "Body field",
+      "description": "Read the paragraph from this field on the linked record",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/partners.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "categories",
+        "label": "Categories",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          "books",
+          "audio",
+          "video",
+          "games",
+          "magazines",
+          "merchandise"
+        ]
+      },
+      {
+        "name": "featured",
+        "label": "Show on the home page",
+        "type": "toggle"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "categories",
+        "featured"
+      ],
+      "sortable": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 50
+      },
+      "filters": [
+        {
+          "field": "name",
+          "label": "Search",
+          "type": "search"
+        }
+      ]
+    }
+  },
+  "description": "Distribution partners and their logos",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "categories",
+        "label": "Categories",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          "books",
+          "audio",
+          "video",
+          "games",
+          "magazines",
+          "merchandise"
+        ]
+      },
+      {
+        "name": "featured",
+        "label": "Show on the home page",
+        "type": "toggle"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "categories",
+        "featured"
+      ],
+      "sortable": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 50
+      },
+      "filters": [
+        {
+          "field": "name",
+          "label": "Search",
+          "type": "search"
+        }
+      ]
+    }
+  }
+}

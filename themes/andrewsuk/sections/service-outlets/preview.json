@@ -1,0 +1,13 @@
+{
+  "outlets": [
+    {
+      "name": "Amazon"
+    },
+    {
+      "name": "Apple"
+    },
+    {
+      "name": "Kobo"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "service-rows",
+  "displayName": "Service rows",
+  "description": "A numbered list of services.",
+  "component": "ServiceRowsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "group",
+      "type": "string",
+      "label": "Group",
+      "description": "Only services in this group",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Items",
+      "description": "Service records",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

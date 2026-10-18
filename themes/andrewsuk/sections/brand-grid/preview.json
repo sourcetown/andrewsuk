@@ -1,0 +1,15 @@
+{
+  "eyebrow": "The group",
+  "title": "Sister companies and brands",
+  "intro": "Companies and brands we work alongside.",
+  "columns": 3,
+  "items": [
+    {
+      "key": "oak",
+      "name": "Oak Tree Books",
+      "type": "imprint",
+      "logo": "/media/imprints/oak-tree-books.png",
+      "blurb": "A book imprint."
+    }
+  ]
+}

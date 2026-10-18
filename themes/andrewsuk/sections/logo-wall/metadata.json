@@ -1,0 +1,86 @@
+{
+  "name": "logo-wall",
+  "displayName": "Logo wall",
+  "description": "Partner logos, optionally filtered.",
+  "component": "LogoWallSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "anchor",
+      "type": "string",
+      "label": "Anchor",
+      "description": "In-page id",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "tint",
+      "type": "boolean",
+      "label": "Tint",
+      "description": "Use the tinted background",
+      "required": false
+    },
+    {
+      "name": "featuredOnly",
+      "type": "boolean",
+      "label": "Featured only",
+      "description": "Only partners marked featured",
+      "required": false
+    },
+    {
+      "name": "byService",
+      "type": "boolean",
+      "label": "By service",
+      "description": "Filter partners to the current service",
+      "required": false
+    },
+    {
+      "name": "link",
+      "type": "object",
+      "label": "Link",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Logos",
+      "description": "Each logo reuses Img.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "Img"
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

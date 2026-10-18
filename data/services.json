@@ -1,0 +1,278 @@
+[
+  {
+    "key": "books",
+    "title": "Books and imprints",
+    "initial": "B",
+    "group": "main",
+    "summary": "Our own wide range of book imprints across many genres, plus eBook and print-on-demand distribution for other publishers.",
+    "body": "<p>We work with and distribute to all major retailers and outlets, such as Amazon, Apple, Barnes and Noble, Kobo and hundreds more. We also work with libraries and digital wholesalers with the aim of ensuring as close to total global coverage as possible.</p><p>Our physical print-on-demand books are for sale on sites such as Amazon, and can also be ordered through most high street bookstores around the world, from Waterstones and Barnes and Noble to independent stores.</p>",
+    "outlets": [
+      {
+        "name": "Amazon"
+      },
+      {
+        "name": "Apple"
+      },
+      {
+        "name": "Barnes and Noble"
+      },
+      {
+        "name": "Kobo"
+      },
+      {
+        "name": "Gardners"
+      },
+      {
+        "name": "Ingram"
+      }
+    ],
+    "children": [],
+    "relatedBrands": [
+      "oak-tree-books",
+      "arthur-h-stockwell"
+    ],
+    "testimonial": "hazel-cushion",
+    "partnerCategory": "books",
+    "outletsNote": "",
+    "order": 1
+  },
+  {
+    "key": "audio",
+    "title": "Audio",
+    "eyebrow": "Audio distribution",
+    "headline": "Audiobooks, audio drama and *music*",
+    "initial": "A",
+    "group": "main",
+    "summary": "Audiobooks, audio drama and music, reaching a global audience through one convenient point of contact.",
+    "body": "<p>Andrews UK offers audio content owners and creators the ability to reach a global audience through one convenient place, one convenient point of contact, with one monthly report detailing all sales from the multiple global outlets, and one easy monthly payment direct to them from us.</p><p>We work with and distribute to all major retailers and outlets, such as Amazon, Apple, Spotify, Audible and hundreds more. We also work with libraries and digital wholesalers with the aim of ensuring as close to total global coverage as possible on your behalf.</p>",
+    "outlets": [
+      {
+        "name": "Audible"
+      },
+      {
+        "name": "Spotify"
+      },
+      {
+        "name": "Apple"
+      },
+      {
+        "name": "Storytel"
+      },
+      {
+        "name": "OverDrive"
+      },
+      {
+        "name": "Findaway Voices"
+      }
+    ],
+    "children": [
+      {
+        "title": "Audiobooks",
+        "text": "Our own in-house creations and many third party titles, from Sci-Fi and comedy to children’s stories. We publish and distribute on major and indie outlets, from Apple to Audible, Spotify to thousands of libraries, and on occasion even co-fund productions."
+      },
+      {
+        "title": "Audio drama",
+        "text": "Sci-Fi, comedy, children’s stories, you name it. We help creators’ work to be available on global platforms, and can arrange new audio dramas with trusted creative partners, many of them ex BBC."
+      },
+      {
+        "title": "Music",
+        "text": "We work with individual music creators, bands, management and publishing companies to get their music distributed across our global network. In the past we have even worked with X Factor contestants!"
+      }
+    ],
+    "relatedBrands": [
+      "auk-studios"
+    ],
+    "featureTitle": "Turn your writing into audio",
+    "featureText": "If you own written content you would like to see turned into an audio drama or audiobook, we can arrange that, potentially via our separate sister company AUK Studios Ltd, which has a talented and experienced, award winning audiobook and audio drama team, many of whom have worked with the BBC, Audible and many more.",
+    "testimonial": "andrew-mark-sewell",
+    "partnerCategory": "audio",
+    "outletsNote": "",
+    "order": 2
+  },
+  {
+    "key": "video",
+    "title": "Video and film",
+    "initial": "V",
+    "group": "main",
+    "summary": "From video and film to documentaries and features, supplied to streaming platforms, libraries and even DVD.",
+    "body": "<p>AUK offers video and film content owners and creators the ability to reach a global audience through one convenient place. From video and film, to documentaries, and features, we are your trusted partner of choice.</p><p>Channels your content could appear on include Amazon Freevee, Amazon Prime Video and Apple TV, as well as newer outlets such as Tubi and the Roku Channel. Not all titles will go on all platforms or retailers, and extra conditions apply for some outlets. It is even possible to arrange physical direct to consumer DVD distribution if required.</p>",
+    "outlets": [
+      {
+        "name": "Prime Video"
+      },
+      {
+        "name": "Apple TV"
+      },
+      {
+        "name": "Tubi"
+      },
+      {
+        "name": "Hoopla"
+      },
+      {
+        "name": "Kanopy"
+      },
+      {
+        "name": "Pluto TV"
+      }
+    ],
+    "children": [],
+    "relatedBrands": [
+      "auk-studios"
+    ],
+    "testimonial": "",
+    "partnerCategory": "video",
+    "outletsNote": "AfroLandTV, Airy Tv, Alive Movies on Xumo, AlleyOOp Television, ALTRD.TV, Biblio+, Bombshell TV, Box Brazil Play, Caliber Video, Castify, Christian Channel, Christian Cinema, Cinedigm, CONtv, CynemaTV, Darkroom, Dekkoo, Documentary+, Docurama, Dooya, Dove Channel, Dreamflix TV, EIFTV, EmBlazeTV, Epoch TV, Exposure+ TV, Fearless, Filmocracy, Filmzie, First Screen, Fishing TV, FlixFling, Flix Premiere, Flixwest, Freebie TV, Free Movies+, fuboTV, Gaia, Glewed TV, Google TV, Go See TV, GuideDoc, HappiTV, Hoopla, Hulu, IndReel, Infamous Media, Infobase, Innovators stream, International Media Network, In Spades TV, Iris Strata, Kanopy, Knight TV+, Lookhu, Magellan TV, Mass TV, Mercado Libre, Millennium TV, Mometu, Moodbox, My Movies Plus, NOM tv, ONEHUBTV, Pantaflix, Paradox Universe, Peacock, PlayNowMedia, PlayWorks, Pluto TV, Popsy on Plex, ProQuest, Premo Network, Qello Concerts by Stingray, QFN TV, Redbox, Replay, Reveel, Revry, RIDEPLAY tv, rlaxx TV, Screambox, Seven Clubs TV, Shientv, Stash TV, Stash Tv en Espanol on YouTube, Stash TV on YouTube, Stremium, TCL, Telus, The Timeless Network, Touch Network, Twisted Mirror, Typhoon on Demand, UDU Digital, Videobyte, Vitor Media, ViC, Vudu, Vyre Network, WOCOO, Xumo.",
+    "order": 3
+  },
+  {
+    "key": "games",
+    "title": "Games",
+    "initial": "G",
+    "group": "main",
+    "summary": "Streaming games, downloads and apps on Steam, Apple, Google, Antstream and more, under our Pixel Games UK brand.",
+    "body": "<p>AUK offers game and app content owners and creators the ability to reach a global audience through one convenient place. From streaming games, to downloads and apps, we are your trusted partner of choice.</p><p>We work with and distribute to all major retailers and outlets, such as Steam, Apple, Google, Antstream, Blaze/Evercade, and many more outlets in the pipeline. We distribute and publish under our Pixel Games UK brand. For new current-gen game development we have a separate standalone sister company, Imagine Software.</p>",
+    "outlets": [
+      {
+        "name": "Steam"
+      },
+      {
+        "name": "Antstream"
+      },
+      {
+        "name": "Nintendo"
+      },
+      {
+        "name": "Google Play"
+      },
+      {
+        "name": "Apple"
+      },
+      {
+        "name": "Blaze/Evercade"
+      }
+    ],
+    "children": [],
+    "relatedBrands": [
+      "pixel-games-uk",
+      "imagine-software"
+    ],
+    "testimonial": "",
+    "partnerCategory": "games",
+    "outletsNote": "",
+    "order": 4
+  },
+  {
+    "key": "magazines",
+    "title": "Magazines",
+    "initial": "M",
+    "group": "main",
+    "summary": "A UK audience for magazine creators through one convenient place, plus our own titles including POPIN and Popular Retro.",
+    "body": "<p>AUK offers magazine creators the ability to reach a UK audience through one convenient place, with one monthly report detailing all sales from the multiple potential retail outlets within the UK, and an easy monthly payment direct to them from us.</p><p>Our sister company The Smart Magazine Company Ltd is a joint venture between Andrews UK Limited and Kids Active Media Ltd. Its first creation, POPIN, was first established by KAM in 2023 and is now stocked in major retailers including Waitrose, Sainsbury’s and Morrisons. AUK also has several legacy magazine brands including Popular Retro, and its online entertainment hub The Goss.</p>",
+    "outlets": [
+      {
+        "name": "Waitrose"
+      },
+      {
+        "name": "Sainsbury’s"
+      },
+      {
+        "name": "Morrisons"
+      },
+      {
+        "name": "Readly"
+      },
+      {
+        "name": "Newsstand"
+      }
+    ],
+    "children": [],
+    "relatedBrands": [
+      "smart-magazine-company"
+    ],
+    "testimonial": "",
+    "partnerCategory": "magazines",
+    "outletsNote": "",
+    "order": 5
+  },
+  {
+    "key": "merchandise",
+    "title": "Merchandise and licensing",
+    "initial": "T",
+    "group": "main",
+    "summary": "Merchandise agencies and online retailers for your games, art, characters and other IP.",
+    "body": "<p>AUK works with many merchandise agencies and online retailers, such as Defuzed, Seven Squared, Red Bubble, T Shirt Republic, T Shirt Giant and many others. Not only does AUK represent its own IP but also works on behalf of other companies, artists and more.</p><p>We also work with larger licensing and merchandising companies who themselves work with huge global brands such as Disney and Nintendo, and potentially your brand could be part of the portfolio we offer to these larger partners.</p>",
+    "outlets": [
+      {
+        "name": "Redbubble"
+      },
+      {
+        "name": "Seven Squared"
+      },
+      {
+        "name": "TeePublic"
+      },
+      {
+        "name": "Amazon"
+      },
+      {
+        "name": "eBay"
+      },
+      {
+        "name": "Wish"
+      }
+    ],
+    "children": [],
+    "relatedBrands": [],
+    "testimonial": "",
+    "partnerCategory": "merchandise",
+    "outletsNote": "",
+    "order": 6
+  },
+  {
+    "key": "editorial",
+    "title": "Covers, editing, PR and marketing",
+    "initial": "E",
+    "group": "additional",
+    "summary": "Via AUK directly, or our sister company Arthur H Stockwell, we can offer most publisher or author extra services: covers, full editing, light copy editing, author PR and marketing.",
+    "body": "",
+    "outlets": [],
+    "children": [],
+    "relatedBrands": [
+      "arthur-h-stockwell"
+    ],
+    "testimonial": "",
+    "outletsNote": "",
+    "order": 7
+  },
+  {
+    "key": "video-creation",
+    "title": "Video creation",
+    "initial": "V",
+    "group": "additional",
+    "summary": "Through our sister company AUK Studios: YouTube promo videos, videos for your website, or crowdfunding videos.",
+    "body": "",
+    "outlets": [],
+    "children": [],
+    "relatedBrands": [
+      "auk-studios"
+    ],
+    "testimonial": "",
+    "outletsNote": "",
+    "order": 8
+  },
+  {
+    "key": "presentations",
+    "title": "Social media and presentations",
+    "initial": "P",
+    "group": "additional",
+    "summary": "We can also help you with the creation of presentation videos or PowerPoint presentations.",
+    "body": "",
+    "outlets": [],
+    "children": [],
+    "relatedBrands": [],
+    "testimonial": "",
+    "outletsNote": "",
+    "order": 9
+  }
+]

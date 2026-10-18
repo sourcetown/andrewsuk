@@ -1,0 +1,63 @@
+{
+  "name": "about-intro",
+  "displayName": "About intro",
+  "description": "About copy beside a milestone list.",
+  "component": "AboutIntroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "about",
+      "type": "string",
+      "label": "About",
+      "description": "HTML about copy",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "milestonesTitle",
+      "type": "string",
+      "label": "Milestones title",
+      "description": "Label above the timeline",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "milestones",
+      "type": "array",
+      "label": "Milestones",
+      "description": "Repeated milestone. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "milestone",
+      "fields": [
+        { "name": "when", "type": "string", "label": "When" },
+        { "name": "title", "type": "string", "label": "Title" },
+        { "name": "text", "type": "long", "label": "Text" }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

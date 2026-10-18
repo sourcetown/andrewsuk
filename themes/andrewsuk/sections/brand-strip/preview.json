@@ -1,0 +1,16 @@
+{
+  "eyebrow": "The AUK family",
+  "title": "Imprints and companies",
+  "cta": {
+    "label": "Explore the imprints",
+    "path": "/imprints"
+  },
+  "items": [
+    {
+      "key": "oak",
+      "name": "Oak Tree Books",
+      "logo": "/media/imprints/oak-tree-books.png",
+      "showInStrip": true
+    }
+  ]
+}

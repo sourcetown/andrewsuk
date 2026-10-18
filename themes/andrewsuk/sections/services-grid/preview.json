@@ -1,0 +1,15 @@
+{
+  "eyebrow": "What we do",
+  "title": "One partner for books, audio, video and games",
+  "intro": "One point of contact, one monthly report, one payment.",
+  "group": "main",
+  "links": true,
+  "items": [
+    {
+      "key": "books",
+      "initial": "B",
+      "title": "Books and imprints",
+      "summary": "Book imprints and distribution for other publishers."
+    }
+  ]
+}

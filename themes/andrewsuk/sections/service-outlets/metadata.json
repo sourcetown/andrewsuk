@@ -1,0 +1,45 @@
+{
+  "name": "service-outlets",
+  "displayName": "Service outlets",
+  "description": "Outlet names or a note about where a service reaches.",
+  "component": "ServiceOutletsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "outletsNote",
+      "type": "string",
+      "label": "Outlets note",
+      "description": "Sentence used instead of the chip list",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "outlets",
+      "type": "array",
+      "label": "Outlets",
+      "description": "Repeated outlet. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "outlet",
+      "fields": [
+        { "name": "name", "type": "string", "label": "Name" }
+      ]
+    },
+    {
+      "name": "partnerCategory",
+      "type": "string",
+      "label": "Partner category",
+      "description": "When set, the outlet list is hidden",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "stats",
+  "displayName": "Stats",
+  "description": "A row of figures and labels.",
+  "component": "StatsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "stats",
+      "type": "array",
+      "label": "Stats",
+      "description": "Repeated stat. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "stat",
+      "fields": [
+        { "name": "value", "type": "string", "label": "Value" },
+        { "name": "label", "type": "string", "label": "Label" }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

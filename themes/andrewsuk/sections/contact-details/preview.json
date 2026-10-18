@@ -1,0 +1,17 @@
+{
+  "formTitle": "Send a message",
+  "legalName": "Andrews UK Limited",
+  "emails": [
+    {
+      "label": "General",
+      "address": "info@andrewsuk.com"
+    }
+  ],
+  "address": {
+    "line1": "West Wing Studios, Unit 166",
+    "line2": "The Mall",
+    "town": "Luton",
+    "county": "Bedfordshire",
+    "postcode": "LU1 2TL"
+  }
+}

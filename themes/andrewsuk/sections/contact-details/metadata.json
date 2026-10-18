@@ -1,0 +1,86 @@
+{
+  "name": "contact-details",
+  "displayName": "Contact details",
+  "description": "Addresses, emails and a message form.",
+  "component": "ContactDetailsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "emails",
+      "type": "array",
+      "label": "Emails",
+      "description": "Repeated email. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "email",
+      "fields": [
+        { "name": "label", "type": "string", "label": "Label" },
+        { "name": "address", "type": "string", "label": "Address" },
+        { "name": "note", "type": "string", "label": "Note" }
+      ]
+    },
+    {
+      "name": "address",
+      "type": "object",
+      "label": "Address",
+      "description": "line1, line2, town, county, postcode",
+      "required": false
+    },
+    {
+      "name": "legalName",
+      "type": "string",
+      "label": "Legal name",
+      "description": "Company name",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "registration",
+      "type": "string",
+      "label": "Registration",
+      "description": "Company registration line",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "phone",
+      "type": "string",
+      "label": "Phone",
+      "description": "Telephone number",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "deliveryNote",
+      "type": "string",
+      "label": "Delivery note",
+      "description": "Note under the address",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "formTitle",
+      "type": "string",
+      "label": "Form title",
+      "description": "Heading on the form",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "formAction",
+      "type": "string",
+      "label": "Form action",
+      "description": "URL the form posts to",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

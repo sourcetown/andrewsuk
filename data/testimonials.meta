@@ -1,0 +1,101 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/testimonials.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "role",
+        "label": "Role or company",
+        "type": "textfield"
+      },
+      {
+        "name": "quote",
+        "label": "Quote",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "name": "featured",
+        "label": "Featured",
+        "type": "toggle"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "role",
+        "featured"
+      ],
+      "sortable": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": []
+    }
+  },
+  "description": "Client testimonials",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "role",
+        "label": "Role or company",
+        "type": "textfield"
+      },
+      {
+        "name": "quote",
+        "label": "Quote",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "name": "featured",
+        "label": "Featured",
+        "type": "toggle"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "role",
+        "featured"
+      ],
+      "sortable": [
+        "name"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": []
+    }
+  }
+}

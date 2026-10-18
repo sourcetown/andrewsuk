@@ -1,0 +1,13 @@
+{
+  "tint": true,
+  "eyebrow": "Testimonials",
+  "title": "Thousands of satisfied clients",
+  "items": [
+    {
+      "key": "hazel",
+      "quote": "Working with Andrews UK Ltd enabled us to fast-track our eBook programme.",
+      "name": "Hazel Cushion",
+      "role": "Publisher"
+    }
+  ]
+}

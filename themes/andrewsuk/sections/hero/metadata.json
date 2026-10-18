@@ -1,0 +1,62 @@
+{
+  "name": "hero",
+  "displayName": "Hero",
+  "description": "Opening band with heading, lede, image and calls to action.",
+  "component": "HeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label above the heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Main heading. Wrap a word in *asterisks* for emphasis.",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "string",
+      "label": "Lede",
+      "description": "Intro paragraph",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "image",
+      "type": "image",
+      "label": "Image",
+      "description": "Artwork beside the heading",
+      "required": false
+    },
+    {
+      "name": "primaryCta",
+      "type": "object",
+      "label": "Primary button",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "secondaryCta",
+      "type": "object",
+      "label": "Secondary button",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

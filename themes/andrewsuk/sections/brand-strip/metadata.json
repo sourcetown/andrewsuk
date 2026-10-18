@@ -1,0 +1,49 @@
+{
+  "name": "brand-strip",
+  "displayName": "Brand strip",
+  "description": "A row of brand logos marked for the strip.",
+  "component": "BrandStripSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Brands",
+      "description": "Each brand reuses BrandCard.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "BrandCard"
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

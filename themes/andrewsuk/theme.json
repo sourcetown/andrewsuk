@@ -1,0 +1,8 @@
+{
+  "name": "andrewsuk",
+  "description": "Theme installed from /Users/janvalo/Projects/sourcetown/website-andrewsuk",
+  "engine": "site",
+  "header": "components/Header.vue",
+  "footer": "components/Footer.vue",
+  "style": "theme.css"
+}

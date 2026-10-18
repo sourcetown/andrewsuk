@@ -1,0 +1,410 @@
+[
+  {
+    "key": "amazon",
+    "name": "Amazon",
+    "logo": "/media/partners/amazon.jpg",
+    "categories": [
+      "books",
+      "video",
+      "merchandise"
+    ],
+    "featured": true
+  },
+  {
+    "key": "antstream",
+    "name": "Antstream",
+    "logo": "/media/partners/antstream.jpg",
+    "categories": [
+      "games"
+    ],
+    "featured": true
+  },
+  {
+    "key": "apple-tv",
+    "name": "Apple TV",
+    "logo": "/media/partners/apple-tv.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": true
+  },
+  {
+    "key": "audible",
+    "name": "Audible",
+    "logo": "/media/partners/audible.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "audiobooks-nz",
+    "name": "Audiobooks NZ",
+    "logo": "/media/partners/audiobooks-nz.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "axiell",
+    "name": "Axiell",
+    "logo": "/media/partners/axiell.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": true
+  },
+  {
+    "key": "baker-and-taylor",
+    "name": "Baker & Taylor",
+    "logo": "/media/partners/baker-and-taylor.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": true
+  },
+  {
+    "key": "barnes-and-noble",
+    "name": "Barnes and Noble",
+    "logo": "/media/partners/barnes-and-noble.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": true
+  },
+  {
+    "key": "beek",
+    "name": "Beek",
+    "logo": "/media/partners/beek.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "believe",
+    "name": "Believe",
+    "logo": "/media/partners/believe.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "castify",
+    "name": "Castify",
+    "logo": "/media/partners/castify.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": true
+  },
+  {
+    "key": "ebay",
+    "name": "eBay",
+    "logo": "/media/partners/ebay.jpg",
+    "categories": [
+      "merchandise"
+    ],
+    "featured": true
+  },
+  {
+    "key": "estories",
+    "name": "eStories",
+    "logo": "/media/partners/estories.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "exposure",
+    "name": "Exposure",
+    "logo": "/media/partners/exposure.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": true
+  },
+  {
+    "key": "findaway-voices",
+    "name": "Findaway Voices",
+    "logo": "/media/partners/findaway-voices.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "gardners",
+    "name": "Gardners",
+    "logo": "/media/partners/gardners.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": true
+  },
+  {
+    "key": "google-play",
+    "name": "Google Play",
+    "logo": "/media/partners/google-play.jpg",
+    "categories": [
+      "books",
+      "audio",
+      "games"
+    ],
+    "featured": true
+  },
+  {
+    "key": "ibookstore",
+    "name": "iBookstore",
+    "logo": "/media/partners/ibookstore.jpg",
+    "categories": [
+      "books",
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "ingram",
+    "name": "Ingram",
+    "logo": "/media/partners/ingram.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": true
+  },
+  {
+    "key": "kobo",
+    "name": "Kobo",
+    "logo": "/media/partners/kobo.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": true
+  },
+  {
+    "key": "leamos",
+    "name": "Leamos",
+    "logo": "/media/partners/leamos.jpg",
+    "categories": [],
+    "featured": true
+  },
+  {
+    "key": "libro-fm",
+    "name": "Libro.fm",
+    "logo": "/media/partners/libro-fm.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "microsoft",
+    "name": "Microsoft",
+    "logo": "/media/partners/microsoft.png",
+    "categories": [
+      "games"
+    ],
+    "featured": true
+  },
+  {
+    "key": "newsstand",
+    "name": "Newsstand",
+    "logo": "/media/partners/newsstand.jpg",
+    "categories": [
+      "magazines"
+    ],
+    "featured": true
+  },
+  {
+    "key": "nextory",
+    "name": "Nextory",
+    "logo": "/media/partners/nextory.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "nintendo",
+    "name": "Nintendo",
+    "logo": "/media/partners/nintendo.jpg",
+    "categories": [
+      "games"
+    ],
+    "featured": true
+  },
+  {
+    "key": "ott-studio",
+    "name": "OTT Studio",
+    "logo": "/media/partners/ott-studio.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": true
+  },
+  {
+    "key": "overdrive",
+    "name": "OverDrive",
+    "logo": "/media/partners/overdrive.jpg",
+    "categories": [
+      "books",
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "prime-video",
+    "name": "Prime Video",
+    "logo": "/media/partners/prime-video.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": true
+  },
+  {
+    "key": "readly",
+    "name": "Readly",
+    "logo": "/media/partners/readly.jpg",
+    "categories": [
+      "magazines"
+    ],
+    "featured": true
+  },
+  {
+    "key": "redbubble",
+    "name": "Redbubble",
+    "logo": "/media/partners/redbubble.jpg",
+    "categories": [
+      "merchandise"
+    ],
+    "featured": true
+  },
+  {
+    "key": "rewarded",
+    "name": "Rewarded",
+    "logo": "/media/partners/rewarded.jpg",
+    "categories": [],
+    "featured": true
+  },
+  {
+    "key": "sainsburys",
+    "name": "Sainsbury’s",
+    "logo": "/media/partners/sainsburys.jpg",
+    "categories": [
+      "magazines"
+    ],
+    "featured": true
+  },
+  {
+    "key": "scribd",
+    "name": "Scribd",
+    "logo": "/media/partners/scribd.jpg",
+    "categories": [
+      "books",
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "sony",
+    "name": "Sony",
+    "logo": "/media/partners/sony.svg",
+    "categories": [
+      "games"
+    ],
+    "featured": true
+  },
+  {
+    "key": "spotify",
+    "name": "Spotify",
+    "logo": "/media/partners/spotify.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "steam",
+    "name": "Steam",
+    "logo": "/media/partners/steam.jpg",
+    "categories": [
+      "games"
+    ],
+    "featured": true
+  },
+  {
+    "key": "storytel",
+    "name": "Storytel",
+    "logo": "/media/partners/storytel.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": true
+  },
+  {
+    "key": "teepublic",
+    "name": "TeePublic",
+    "logo": "/media/partners/teepublic.jpg",
+    "categories": [
+      "merchandise"
+    ],
+    "featured": true
+  },
+  {
+    "key": "tubi",
+    "name": "Tubi",
+    "logo": "/media/partners/tubi.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": true
+  },
+  {
+    "key": "ubook",
+    "name": "Ubook",
+    "logo": "/media/partners/ubook.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": false
+  },
+  {
+    "key": "waitrose",
+    "name": "Waitrose",
+    "logo": "/media/partners/waitrose.jpg",
+    "categories": [
+      "magazines"
+    ],
+    "featured": false
+  },
+  {
+    "key": "wh-smith",
+    "name": "WH Smith",
+    "logo": "/media/partners/wh-smith.jpg",
+    "categories": [
+      "books"
+    ],
+    "featured": false
+  },
+  {
+    "key": "youtube",
+    "name": "YouTube",
+    "logo": "/media/partners/youtube.jpg",
+    "categories": [
+      "video"
+    ],
+    "featured": false
+  },
+  {
+    "key": "zebralution",
+    "name": "Zebralution",
+    "logo": "/media/partners/zebralution.jpg",
+    "categories": [
+      "audio"
+    ],
+    "featured": false
+  }
+]

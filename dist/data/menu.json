@@ -1,0 +1,252 @@
+{
+  "locations": {
+    "header": {
+      "name": "Header",
+      "description": "Main navigation",
+      "items": [
+        {
+          "id": "header-about",
+          "label": "About",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "header-imprints",
+          "label": "Imprints",
+          "path": "/imprints",
+          "external": false
+        },
+        {
+          "id": "header-services",
+          "label": "Services",
+          "path": "/services",
+          "external": false
+        },
+        {
+          "id": "header-publishers",
+          "label": "Publishers",
+          "path": "/publishers",
+          "external": false
+        },
+        {
+          "id": "header-faqs",
+          "label": "FAQs",
+          "path": "/faqs",
+          "external": false
+        },
+        {
+          "id": "header-contact",
+          "label": "Contact",
+          "path": "/contact",
+          "external": false
+        }
+      ]
+    },
+    "footer": {
+      "name": "Footer",
+      "description": "Company column in the footer",
+      "items": [
+        {
+          "id": "footer-about",
+          "label": "About us",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "footer-publishers",
+          "label": "For publishers",
+          "path": "/publishers",
+          "external": false
+        },
+        {
+          "id": "footer-partners",
+          "label": "Partners",
+          "path": "/publishers#partners",
+          "external": false
+        },
+        {
+          "id": "footer-faqs",
+          "label": "FAQs",
+          "path": "/faqs",
+          "external": false
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact us",
+          "path": "/contact",
+          "external": false
+        },
+        {
+          "id": "footer-reports",
+          "label": "Reports",
+          "path": "https://reports.andrewsuk.com",
+          "external": true,
+          "target": "_blank"
+        },
+        {
+          "id": "footer-auk-direct",
+          "label": "AUK Direct",
+          "path": "https://auk.direct/",
+          "external": true,
+          "target": "_blank"
+        }
+      ]
+    },
+    "header-cta": {
+      "name": "Header Cta",
+      "description": "Button at the end of the header",
+      "items": [
+        {
+          "id": "cta-contact",
+          "label": "Get in touch",
+          "path": "/contact",
+          "external": false
+        }
+      ]
+    },
+    "legal": {
+      "name": "Legal",
+      "description": "Links in the footer base",
+      "items": [
+        {
+          "id": "legal-privacy",
+          "label": "Privacy policy",
+          "path": "/privacy-policy",
+          "external": false
+        }
+      ]
+    }
+  },
+  "locationOrder": [
+    "header",
+    "footer",
+    "header-cta",
+    "legal"
+  ],
+  "menus": [
+    {
+      "id": "header",
+      "name": "Header",
+      "location": "header",
+      "description": "Main navigation",
+      "items": [
+        {
+          "id": "header-about",
+          "label": "About",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "header-imprints",
+          "label": "Imprints",
+          "path": "/imprints",
+          "external": false
+        },
+        {
+          "id": "header-services",
+          "label": "Services",
+          "path": "/services",
+          "external": false
+        },
+        {
+          "id": "header-publishers",
+          "label": "Publishers",
+          "path": "/publishers",
+          "external": false
+        },
+        {
+          "id": "header-faqs",
+          "label": "FAQs",
+          "path": "/faqs",
+          "external": false
+        },
+        {
+          "id": "header-contact",
+          "label": "Contact",
+          "path": "/contact",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "location": "footer",
+      "description": "Company column in the footer",
+      "items": [
+        {
+          "id": "footer-about",
+          "label": "About us",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "footer-publishers",
+          "label": "For publishers",
+          "path": "/publishers",
+          "external": false
+        },
+        {
+          "id": "footer-partners",
+          "label": "Partners",
+          "path": "/publishers#partners",
+          "external": false
+        },
+        {
+          "id": "footer-faqs",
+          "label": "FAQs",
+          "path": "/faqs",
+          "external": false
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact us",
+          "path": "/contact",
+          "external": false
+        },
+        {
+          "id": "footer-reports",
+          "label": "Reports",
+          "path": "https://reports.andrewsuk.com",
+          "external": true,
+          "target": "_blank"
+        },
+        {
+          "id": "footer-auk-direct",
+          "label": "AUK Direct",
+          "path": "https://auk.direct/",
+          "external": true,
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "id": "header-cta",
+      "name": "Header Cta",
+      "location": "header-cta",
+      "description": "Button at the end of the header",
+      "items": [
+        {
+          "id": "cta-contact",
+          "label": "Get in touch",
+          "path": "/contact",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "name": "Legal",
+      "location": "legal",
+      "description": "Links in the footer base",
+      "items": [
+        {
+          "id": "legal-privacy",
+          "label": "Privacy policy",
+          "path": "/privacy-policy",
+          "external": false
+        }
+      ]
+    }
+  ]
+}

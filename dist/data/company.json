@@ -1,0 +1,99 @@
+{
+  "legalName": "Andrews UK Limited",
+  "shortName": "AUK",
+  "logo": "/media/logo.png",
+  "tagline": "The UK’s leading independent multimedia publisher and distributor",
+  "description": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor.",
+  "intro": "Andrews UK Limited, founded in the year 2000, is the UK’s leading indie publisher and distributor. As well as its own wide range of book imprints across many genres, Andrews UK Limited also provides global distribution to other publishers and IP owners.",
+  "acquisitions": "Recent years have seen multiple acquisitions by the company and the team expanding, to include brands such as Matthew James Publishing, Tiny Tree Books, Chinbeard Books, a separate standalone publishing company Arthur H Stockwell Ltd (founded in 1898), as well as investment such as into The Smart Magazine Company Ltd.",
+  "about": "<p>We are a company based in Luton, Bedfordshire in the UK but we trade and publish our books, games, audio and films all over the world. We are privately owned and most of the staff members have worked within AUK for many years, so you will always have a trusted, proven, knowledgeable contact within the company to work with you, guide you, and help you achieve your goals.</p><p>We work with many third party book publishers, audio, video and games rights owners, utilising our existing extensive network to provide them with the same level of service and care we take with our own content.</p>",
+  "why": "Why have the hassle of having to source outlets, negotiate with tens or hundreds of these outlets, fill in tens or hundreds of contracts, obtain tax certificates from multiple worldwide companies, collate global sales reports, accept payments in various currencies and chase late payments? We use our collective representative power to often also gain better royalty rates from the outlets. We believe our very modest fees are worth the peace of mind working with AUK brings; think of us as your virtual in-house staff.",
+  "founded": "2000",
+  "companyNumber": "04047099",
+  "registration": "UK registered company since the year 2000, company number 04047099.",
+  "address": {
+    "line1": "West Wing Studios",
+    "line2": "Unit 166, The Mall",
+    "town": "Luton",
+    "county": "Bedfordshire",
+    "postcode": "LU1 2TL"
+  },
+  "deliveryNote": "Delivering parcels? Use LU1 2BB on your sat nav (Lloyds Bank, 60 George St., Luton), 20ft away from our door.",
+  "phone": "",
+  "emails": [
+    {
+      "label": "General enquiries",
+      "address": "info@andrewsuk.com",
+      "note": "Please include an appropriate subject line so your email is directed to the correct person."
+    },
+    {
+      "label": "Manuscript submissions",
+      "address": "submissions@andrewsuk.com",
+      "note": "From authors already working with or known to us. First-time authors, see Arthur H Stockwell."
+    }
+  ],
+  "social": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/andrewsukltd/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/AUK_News"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/auk_latest_news/"
+    },
+    {
+      "label": "YouTube (AUK Digital)",
+      "url": "https://www.youtube.com/@AUKdigital"
+    },
+    {
+      "label": "YouTube (AUK Entertainment)",
+      "url": "https://www.youtube.com/@AUK.entertainment"
+    }
+  ],
+  "stats": [
+    {
+      "value": "2000",
+      "label": "Andrews UK Limited founded, and a leading UK independent digital media publisher since"
+    },
+    {
+      "value": "1898",
+      "label": "Arthur H Stockwell Ltd founded, now a standalone company in the group"
+    },
+    {
+      "value": "20+ years",
+      "label": "working with thousands of satisfied clients"
+    },
+    {
+      "value": "Hundreds",
+      "label": "of retailers, libraries and outlets we distribute through worldwide"
+    }
+  ],
+  "milestones": [
+    {
+      "when": "1898",
+      "title": "Arthur H Stockwell founded",
+      "text": "Now a separate standalone publishing company within the group."
+    },
+    {
+      "when": "2000",
+      "title": "Andrews UK Limited founded",
+      "text": "A UK registered company since 2000, company number 04047099."
+    },
+    {
+      "when": "2023",
+      "title": "POPIN",
+      "text": "First established by Kids Active Media, now with The Smart Magazine Company, our joint venture. Stocked in Waitrose, Sainsbury’s and Morrisons."
+    },
+    {
+      "when": "",
+      "title": "Acquisitions",
+      "text": "Matthew James Publishing, Tiny Tree Books, Chinbeard Books and Arthur H Stockwell Ltd."
+    }
+  ],
+  "contactIntro": "For general enquiries, or publishers and content owners wishing to talk about working with us, please email us and include an appropriate subject line so your email is directed to the correct person.",
+  "formAction": "/api/contact"
+}

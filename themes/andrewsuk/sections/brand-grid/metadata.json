@@ -1,0 +1,79 @@
+{
+  "name": "brand-grid",
+  "displayName": "Brand grid",
+  "description": "A filterable grid of brands.",
+  "component": "BrandGridSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "tint",
+      "type": "boolean",
+      "label": "Tint",
+      "description": "Use the tinted background",
+      "required": false
+    },
+    {
+      "name": "filters",
+      "type": "boolean",
+      "label": "Filters",
+      "description": "Show type filters",
+      "required": false
+    },
+    {
+      "name": "columns",
+      "type": "number",
+      "label": "Columns",
+      "description": "3 or 4",
+      "required": false
+    },
+    {
+      "name": "types",
+      "type": "array",
+      "label": "Types",
+      "description": "Brand types to include",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Brands",
+      "description": "Each brand reuses BrandCard.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "BrandCard"
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

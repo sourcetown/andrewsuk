@@ -1,0 +1,72 @@
+{
+  "name": "publisher-pitch",
+  "displayName": "Publisher pitch",
+  "description": "A pitch with a quote beside it.",
+  "component": "PublisherPitchSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "body",
+      "type": "string",
+      "label": "Body",
+      "description": "Pitch text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Object with label and path",
+      "required": false
+    },
+    {
+      "name": "quote",
+      "type": "string",
+      "label": "Quote",
+      "description": "Testimonial quote",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "label": "Name",
+      "description": "Person quoted",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "role",
+      "type": "string",
+      "label": "Role",
+      "description": "Role of the person quoted",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

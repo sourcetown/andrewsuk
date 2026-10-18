@@ -1,0 +1,18 @@
+{
+  "eyebrow": "Our distribution partners",
+  "title": "Where our content reaches readers",
+  "tint": true,
+  "featuredOnly": true,
+  "items": [
+    {
+      "key": "amazon",
+      "name": "Amazon",
+      "logo": "/media/partners/amazon.jpg",
+      "featured": true
+    }
+  ],
+  "link": {
+    "label": "See all partners",
+    "path": "/publishers#partners"
+  }
+}

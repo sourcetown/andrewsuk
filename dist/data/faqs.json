@@ -1,0 +1,80 @@
+[
+  {
+    "key": "who-are-you-and-where-are-you-based",
+    "category": "General",
+    "question": "Who are you and where are you based?",
+    "answer": "<p>We are a company based in Luton, Bedfordshire in the UK but we trade and publish our books, games, audio and films all over the world. We were formed in the year 2000 and have been a leading UK independent digital media publisher since then.</p><p>Whether you are an individual author with one title, or a major publisher with many titles, or a creator or owner of games, audio or film, we provide everything you need to get your media out there and for sale globally.</p>"
+  },
+  {
+    "key": "i-dont-live-in-the-uk-can-you-still-publish-or-distribute-my",
+    "category": "General",
+    "question": "I don’t live in the UK. Can you still publish or distribute my work?",
+    "answer": "<p>Of course. We work with many overseas and global authors, publishers, and other media creators and rights owners.</p>"
+  },
+  {
+    "key": "what-platforms-do-you-distribute-books-and-ebooks-on",
+    "category": "Books",
+    "question": "What platforms do you distribute books and eBooks on?",
+    "answer": "<p>We work with and distribute to all major retailers and outlets, such as Amazon, Apple, Barnes and Noble, Kobo and hundreds more. Our physical POD books can also be ordered through most high street bookstores around the world.</p>"
+  },
+  {
+    "key": "do-you-only-publish-fiction-books",
+    "category": "Books",
+    "question": "Do you only publish fiction books?",
+    "answer": "<p>No, we publish books of all genres. This includes academic, romance, poetry, children’s, memoirs, autobiographies, biographies, trivia, non-fiction and much more.</p>"
+  },
+  {
+    "key": "how-do-i-submit-my-book-manuscript-to-you",
+    "category": "Books",
+    "question": "How do I submit my book manuscript to you?",
+    "answer": "<p>Please send an email to submissions@andrewsuk.com attaching your complete manuscript. Please also include a brief synopsis and a bit about yourself as well as your preferred published package.</p>"
+  },
+  {
+    "key": "are-you-a-vanity-publisher",
+    "category": "Books",
+    "question": "Are you a vanity publisher?",
+    "answer": "<p>AUK itself no longer generally deals directly with new first time authors, only authors already working or known to us. Our separate standalone sister company Arthur H Stockwell does, and has for over 125 years: an artisan book publisher, not a vanity publisher.</p>"
+  },
+  {
+    "key": "do-you-offer-editing-and-proof-reading",
+    "category": "Books",
+    "question": "Do you offer editing and proof-reading?",
+    "answer": "<p>We do offer copy editing as an additional service. This includes spelling, punctuation, grammar and syntax, as well as highlighting any problem areas. Quotes are provided on a per-book basis so please drop us an email for further information.</p>"
+  },
+  {
+    "key": "what-platforms-do-you-distribute-audio-on",
+    "category": "Audio",
+    "question": "What platforms do you distribute audio on?",
+    "answer": "<p>We work with and distribute to all major retailers and outlets, such as Amazon, Apple, Spotify and hundreds more, plus libraries and digital wholesalers.</p>"
+  },
+  {
+    "key": "can-you-help-me-turn-my-book-into-an-audiobook",
+    "category": "Audio",
+    "question": "Can you help me turn my book into an audiobook?",
+    "answer": "<p>Subject to certain quality and other criteria, yes. Some conversions can be done on a profit share basis, others will incur a fee, and we can then also distribute it on your behalf globally.</p>"
+  },
+  {
+    "key": "can-you-help-me-turn-my-book-or-graphic-novel-into-an-audio-",
+    "category": "Audio",
+    "question": "Can you help me turn my book or graphic novel into an audio drama?",
+    "answer": "<p>Potentially yes. We can arrange this with one of our trusted audio drama creative partners, many of them ex BBC. These would generally need funding by you, but exceptional IPs might be able to obtain third party funding. Please contact us in the first instance to outline your ideas.</p>"
+  },
+  {
+    "key": "what-platforms-do-you-distribute-digital-games-on",
+    "category": "Games, film and merchandise",
+    "question": "What platforms do you distribute digital games on?",
+    "answer": "<p>Google, Apple, Steam, Antstream, and many more in the pipeline. (Not all games will go on all platforms.)</p>"
+  },
+  {
+    "key": "what-platforms-do-you-distribute-digital-film-and-video-on",
+    "category": "Games, film and merchandise",
+    "question": "What platforms do you distribute digital film and video on?",
+    "answer": "<p>Google, Apple, Amazon, YouTube, and many more digital streaming and download outlets, plus certain library and other select outlets. (Not all titles will go on all platforms.)</p>"
+  },
+  {
+    "key": "where-do-you-place-brands-and-merchandise",
+    "category": "Games, film and merchandise",
+    "question": "Where do you place brands and merchandise?",
+    "answer": "<p>Directly or via a growing network of partners selling on Amazon, eBay, Wish, Redbubble and many print-on-demand outlets, and even some high street retailers like HMV and Primark for some brands. We also work with larger licensing companies who work with global brands such as Disney and Nintendo.</p>"
+  }
+]

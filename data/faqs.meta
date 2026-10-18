@@ -1,0 +1,111 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/faqs.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "select",
+        "options": [
+          "General",
+          "Books",
+          "Audio",
+          "Games, film and merchandise"
+        ]
+      },
+      {
+        "name": "question",
+        "label": "Question",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "answer",
+        "label": "Answer",
+        "type": "wysiwyg"
+      }
+    ],
+    "list": {
+      "columns": [
+        "question",
+        "category"
+      ],
+      "sortable": [
+        "category"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "category",
+          "label": "Category",
+          "type": "select"
+        }
+      ]
+    }
+  },
+  "description": "Frequently asked questions",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "select",
+        "options": [
+          "General",
+          "Books",
+          "Audio",
+          "Games, film and merchandise"
+        ]
+      },
+      {
+        "name": "question",
+        "label": "Question",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "answer",
+        "label": "Answer",
+        "type": "wysiwyg"
+      }
+    ],
+    "list": {
+      "columns": [
+        "question",
+        "category"
+      ],
+      "sortable": [
+        "category"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "category",
+          "label": "Category",
+          "type": "select"
+        }
+      ]
+    }
+  }
+}

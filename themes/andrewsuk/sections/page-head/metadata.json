@@ -1,0 +1,56 @@
+{
+  "name": "page-head",
+  "displayName": "Page head",
+  "description": "Page title band.",
+  "component": "PageHeadSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Page heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "string",
+      "label": "Lede",
+      "description": "Intro paragraph",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ledeField",
+      "type": "string",
+      "label": "Lede field",
+      "description": "Read the lede from this field on the linked record",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "split",
+      "type": "boolean",
+      "label": "Split",
+      "description": "Place the lede beside the heading",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

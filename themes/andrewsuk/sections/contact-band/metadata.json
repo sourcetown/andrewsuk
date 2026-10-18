@@ -1,0 +1,53 @@
+{
+  "name": "contact-band",
+  "displayName": "Contact band",
+  "description": "A closing call to action with an email button.",
+  "component": "ContactBandSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "body",
+      "type": "string",
+      "label": "Body",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "emails",
+      "type": "array",
+      "label": "Emails",
+      "description": "Repeated email. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "email",
+      "fields": [
+        { "name": "address", "type": "string", "label": "Address" }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

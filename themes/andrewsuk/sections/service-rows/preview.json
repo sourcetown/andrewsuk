@@ -1,0 +1,16 @@
+{
+  "group": "main",
+  "items": [
+    {
+      "key": "books",
+      "title": "Books and imprints",
+      "summary": "Book imprints and distribution.",
+      "order": 1,
+      "outlets": [
+        {
+          "name": "Amazon"
+        }
+      ]
+    }
+  ]
+}

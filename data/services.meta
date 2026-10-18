@@ -1,0 +1,315 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/services.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "eyebrow",
+        "label": "Detail page eyebrow (optional)",
+        "type": "textfield"
+      },
+      {
+        "name": "headline",
+        "label": "Detail page headline (optional, *word* for italics)",
+        "type": "textfield"
+      },
+      {
+        "name": "initial",
+        "label": "Icon letter",
+        "type": "textfield"
+      },
+      {
+        "name": "group",
+        "label": "Group",
+        "type": "select",
+        "options": [
+          "main",
+          "additional"
+        ]
+      },
+      {
+        "name": "summary",
+        "label": "Summary",
+        "type": "textarea"
+      },
+      {
+        "name": "body",
+        "label": "Body",
+        "type": "wysiwyg"
+      },
+      {
+        "name": "outlets",
+        "label": "Example outlets",
+        "type": "repeater",
+        "addButtonLabel": "+ Add outlet",
+        "fields": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "children",
+        "label": "Sub-services",
+        "type": "repeater",
+        "addButtonLabel": "+ Add sub-service",
+        "fields": [
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "textfield"
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "relatedBrands",
+        "label": "Related brands",
+        "type": "reference",
+        "collection": "brands",
+        "valueField": "key",
+        "labelField": "name",
+        "multiple": true
+      },
+      {
+        "name": "featureTitle",
+        "label": "Feature heading (optional)",
+        "type": "textfield"
+      },
+      {
+        "name": "featureText",
+        "label": "Feature text (optional)",
+        "type": "textarea"
+      },
+      {
+        "name": "testimonial",
+        "label": "Testimonial",
+        "type": "reference",
+        "collection": "testimonials",
+        "valueField": "key",
+        "labelField": "name"
+      },
+      {
+        "name": "partnerCategory",
+        "label": "Partner category",
+        "type": "select",
+        "options": [
+          "books",
+          "audio",
+          "video",
+          "games",
+          "magazines",
+          "merchandise"
+        ]
+      },
+      {
+        "name": "outletsNote",
+        "label": "Full outlet list",
+        "type": "textarea"
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "group",
+        "summary",
+        "order"
+      ],
+      "sortable": [
+        "title",
+        "order"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "group",
+          "label": "Group",
+          "type": "select"
+        }
+      ]
+    }
+  },
+  "description": "Services, each with its own detail page at /services/<key>",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "eyebrow",
+        "label": "Detail page eyebrow (optional)",
+        "type": "textfield"
+      },
+      {
+        "name": "headline",
+        "label": "Detail page headline (optional, *word* for italics)",
+        "type": "textfield"
+      },
+      {
+        "name": "initial",
+        "label": "Icon letter",
+        "type": "textfield"
+      },
+      {
+        "name": "group",
+        "label": "Group",
+        "type": "select",
+        "options": [
+          "main",
+          "additional"
+        ]
+      },
+      {
+        "name": "summary",
+        "label": "Summary",
+        "type": "textarea"
+      },
+      {
+        "name": "body",
+        "label": "Body",
+        "type": "wysiwyg"
+      },
+      {
+        "name": "outlets",
+        "label": "Example outlets",
+        "type": "repeater",
+        "addButtonLabel": "+ Add outlet",
+        "fields": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "children",
+        "label": "Sub-services",
+        "type": "repeater",
+        "addButtonLabel": "+ Add sub-service",
+        "fields": [
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "textfield"
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "relatedBrands",
+        "label": "Related brands",
+        "type": "reference",
+        "collection": "brands",
+        "valueField": "key",
+        "labelField": "name",
+        "multiple": true
+      },
+      {
+        "name": "featureTitle",
+        "label": "Feature heading (optional)",
+        "type": "textfield"
+      },
+      {
+        "name": "featureText",
+        "label": "Feature text (optional)",
+        "type": "textarea"
+      },
+      {
+        "name": "testimonial",
+        "label": "Testimonial",
+        "type": "reference",
+        "collection": "testimonials",
+        "valueField": "key",
+        "labelField": "name"
+      },
+      {
+        "name": "partnerCategory",
+        "label": "Partner category",
+        "type": "select",
+        "options": [
+          "books",
+          "audio",
+          "video",
+          "games",
+          "magazines",
+          "merchandise"
+        ]
+      },
+      {
+        "name": "outletsNote",
+        "label": "Full outlet list",
+        "type": "textarea"
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "group",
+        "summary",
+        "order"
+      ],
+      "sortable": [
+        "title",
+        "order"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "group",
+          "label": "Group",
+          "type": "select"
+        }
+      ]
+    }
+  }
+}

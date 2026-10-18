@@ -1,0 +1,11 @@
+{
+  "eyebrow": "Services",
+  "title": "Books and imprints",
+  "headline": "Books and imprints",
+  "summary": "Our own imprints, plus distribution for other publishers.",
+  "initial": "B",
+  "cta": {
+    "label": "Talk to us",
+    "path": "/contact"
+  }
+}

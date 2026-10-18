@@ -1,0 +1,409 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "data/company.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "legalName",
+        "label": "Legal name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "shortName",
+        "label": "Short name",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "tagline",
+        "label": "Tagline",
+        "type": "textfield"
+      },
+      {
+        "name": "description",
+        "label": "Description (footer and SEO)",
+        "type": "textarea"
+      },
+      {
+        "name": "intro",
+        "label": "Intro",
+        "type": "textarea"
+      },
+      {
+        "name": "acquisitions",
+        "label": "Acquisitions paragraph",
+        "type": "textarea"
+      },
+      {
+        "name": "about",
+        "label": "About text",
+        "type": "wysiwyg"
+      },
+      {
+        "name": "why",
+        "label": "Why AUK paragraph",
+        "type": "textarea"
+      },
+      {
+        "name": "founded",
+        "label": "Founded",
+        "type": "textfield"
+      },
+      {
+        "name": "companyNumber",
+        "label": "Company number",
+        "type": "textfield"
+      },
+      {
+        "name": "registration",
+        "label": "Registration line",
+        "type": "textarea"
+      },
+      {
+        "name": "address",
+        "label": "Postal address",
+        "type": "object",
+        "fields": [
+          {
+            "name": "line1",
+            "label": "Line 1",
+            "type": "textfield"
+          },
+          {
+            "name": "line2",
+            "label": "Line 2",
+            "type": "textfield"
+          },
+          {
+            "name": "town",
+            "label": "Town",
+            "type": "textfield"
+          },
+          {
+            "name": "county",
+            "label": "County",
+            "type": "textfield"
+          },
+          {
+            "name": "postcode",
+            "label": "Postcode",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "deliveryNote",
+        "label": "Parcel delivery note",
+        "type": "textarea"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "textfield"
+      },
+      {
+        "name": "emails",
+        "label": "Email addresses",
+        "type": "repeater",
+        "addButtonLabel": "+ Add email",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "address",
+            "label": "Address",
+            "type": "textfield"
+          },
+          {
+            "name": "note",
+            "label": "Note",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "social",
+        "label": "Social links",
+        "type": "repeater",
+        "addButtonLabel": "+ Add link",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "url",
+            "label": "URL",
+            "type": "link"
+          }
+        ]
+      },
+      {
+        "name": "stats",
+        "label": "Stats",
+        "type": "repeater",
+        "addButtonLabel": "+ Add stat",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Value",
+            "type": "textfield"
+          },
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "milestones",
+        "label": "Milestones",
+        "type": "repeater",
+        "addButtonLabel": "+ Add milestone",
+        "fields": [
+          {
+            "name": "when",
+            "label": "When",
+            "type": "textfield"
+          },
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "textfield"
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "contactIntro",
+        "label": "Contact page intro",
+        "type": "textarea"
+      },
+      {
+        "name": "formAction",
+        "label": "Contact form endpoint",
+        "type": "textfield"
+      }
+    ]
+  },
+  "description": "Company facts, contact details and shared copy",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "legalName",
+        "label": "Legal name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "shortName",
+        "label": "Short name",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "tagline",
+        "label": "Tagline",
+        "type": "textfield"
+      },
+      {
+        "name": "description",
+        "label": "Description (footer and SEO)",
+        "type": "textarea"
+      },
+      {
+        "name": "intro",
+        "label": "Intro",
+        "type": "textarea"
+      },
+      {
+        "name": "acquisitions",
+        "label": "Acquisitions paragraph",
+        "type": "textarea"
+      },
+      {
+        "name": "about",
+        "label": "About text",
+        "type": "wysiwyg"
+      },
+      {
+        "name": "why",
+        "label": "Why AUK paragraph",
+        "type": "textarea"
+      },
+      {
+        "name": "founded",
+        "label": "Founded",
+        "type": "textfield"
+      },
+      {
+        "name": "companyNumber",
+        "label": "Company number",
+        "type": "textfield"
+      },
+      {
+        "name": "registration",
+        "label": "Registration line",
+        "type": "textarea"
+      },
+      {
+        "name": "address",
+        "label": "Postal address",
+        "type": "object",
+        "fields": [
+          {
+            "name": "line1",
+            "label": "Line 1",
+            "type": "textfield"
+          },
+          {
+            "name": "line2",
+            "label": "Line 2",
+            "type": "textfield"
+          },
+          {
+            "name": "town",
+            "label": "Town",
+            "type": "textfield"
+          },
+          {
+            "name": "county",
+            "label": "County",
+            "type": "textfield"
+          },
+          {
+            "name": "postcode",
+            "label": "Postcode",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "deliveryNote",
+        "label": "Parcel delivery note",
+        "type": "textarea"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "textfield"
+      },
+      {
+        "name": "emails",
+        "label": "Email addresses",
+        "type": "repeater",
+        "addButtonLabel": "+ Add email",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "address",
+            "label": "Address",
+            "type": "textfield"
+          },
+          {
+            "name": "note",
+            "label": "Note",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "social",
+        "label": "Social links",
+        "type": "repeater",
+        "addButtonLabel": "+ Add link",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "url",
+            "label": "URL",
+            "type": "link"
+          }
+        ]
+      },
+      {
+        "name": "stats",
+        "label": "Stats",
+        "type": "repeater",
+        "addButtonLabel": "+ Add stat",
+        "fields": [
+          {
+            "name": "value",
+            "label": "Value",
+            "type": "textfield"
+          },
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "milestones",
+        "label": "Milestones",
+        "type": "repeater",
+        "addButtonLabel": "+ Add milestone",
+        "fields": [
+          {
+            "name": "when",
+            "label": "When",
+            "type": "textfield"
+          },
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "textfield"
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "contactIntro",
+        "label": "Contact page intro",
+        "type": "textarea"
+      },
+      {
+        "name": "formAction",
+        "label": "Contact form endpoint",
+        "type": "textfield"
+      }
+    ]
+  }
+}

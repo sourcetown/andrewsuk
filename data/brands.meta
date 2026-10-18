@@ -1,0 +1,163 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/brands.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "select",
+        "options": [
+          "imprint",
+          "children",
+          "standalone",
+          "sister",
+          "games-brand",
+          "joint-venture"
+        ]
+      },
+      {
+        "name": "tag",
+        "label": "Label shown on the card",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "url",
+        "label": "Website",
+        "type": "link"
+      },
+      {
+        "name": "blurb",
+        "label": "Short description",
+        "type": "textarea"
+      },
+      {
+        "name": "showInStrip",
+        "label": "Show in the home page strip",
+        "type": "toggle"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "type",
+        "url",
+        "showInStrip"
+      ],
+      "sortable": [
+        "name",
+        "type"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "type",
+          "label": "Type",
+          "type": "select"
+        }
+      ]
+    }
+  },
+  "description": "Imprints, sister companies and brands in the AUK family",
+  "type": "static",
+  "formSchema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "select",
+        "options": [
+          "imprint",
+          "children",
+          "standalone",
+          "sister",
+          "games-brand",
+          "joint-venture"
+        ]
+      },
+      {
+        "name": "tag",
+        "label": "Label shown on the card",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "url",
+        "label": "Website",
+        "type": "link"
+      },
+      {
+        "name": "blurb",
+        "label": "Short description",
+        "type": "textarea"
+      },
+      {
+        "name": "showInStrip",
+        "label": "Show in the home page strip",
+        "type": "toggle"
+      }
+    ],
+    "list": {
+      "columns": [
+        "name",
+        "type",
+        "url",
+        "showInStrip"
+      ],
+      "sortable": [
+        "name",
+        "type"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "type",
+          "label": "Type",
+          "type": "select"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "service-children",
+  "displayName": "Service children",
+  "description": "Numbered cards for parts of a service.",
+  "component": "ServiceChildrenSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "children",
+      "type": "array",
+      "label": "Cards",
+      "description": "Repeated card. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "card",
+      "fields": [
+        { "name": "title", "type": "string", "label": "Title" },
+        { "name": "text", "type": "long", "label": "Text" }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

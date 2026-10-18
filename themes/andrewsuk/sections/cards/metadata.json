@@ -1,0 +1,55 @@
+{
+  "name": "cards",
+  "displayName": "Cards",
+  "description": "A grid of titled cards.",
+  "component": "CardsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Cards",
+      "description": "Repeated card. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "card",
+      "fields": [
+        { "name": "initial", "type": "string", "label": "Initial" },
+        { "name": "title", "type": "string", "label": "Title" },
+        { "name": "text", "type": "long", "label": "Text" }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "testimonials",
+  "displayName": "Testimonials",
+  "description": "A grid of quotes.",
+  "component": "TestimonialsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "tint",
+      "type": "boolean",
+      "label": "Tint",
+      "description": "Use the tinted background",
+      "required": false
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Quotes",
+      "description": "Repeated quote. Each child uses the same fields.",
+      "required": false,
+      "canLinkDataset": true,
+      "component": "testimonial",
+      "fields": [
+        { "name": "quote", "type": "long", "label": "Quote" },
+        { "name": "name", "type": "string", "label": "Name" },
+        { "name": "role", "type": "string", "label": "Role" }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

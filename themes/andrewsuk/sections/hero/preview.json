@@ -1,0 +1,14 @@
+{
+  "eyebrow": "Independent since 2000",
+  "title": "The UK’s leading independent *multimedia* publisher",
+  "lede": "Global distribution for publishers and IP owners.",
+  "image": "/media/book.png",
+  "primaryCta": {
+    "label": "Work with us",
+    "path": "/publishers"
+  },
+  "secondaryCta": {
+    "label": "Our imprints",
+    "path": "/imprints"
+  }
+}

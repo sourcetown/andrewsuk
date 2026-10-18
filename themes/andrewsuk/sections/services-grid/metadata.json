@@ -1,0 +1,71 @@
+{
+  "name": "services-grid",
+  "displayName": "Services grid",
+  "description": "Cards for a group of services.",
+  "component": "ServicesGridSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "Small label",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "Section heading",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "Supporting text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "group",
+      "type": "string",
+      "label": "Group",
+      "description": "Only services in this group",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "tint",
+      "type": "boolean",
+      "label": "Tint",
+      "description": "Use the tinted background",
+      "required": false
+    },
+    {
+      "name": "links",
+      "type": "boolean",
+      "label": "Links",
+      "description": "Link each card to its service page",
+      "required": false
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Items",
+      "description": "Service records",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}
