@@ -1,7 +1,7 @@
 {
   "legalName": "Andrews UK Limited",
   "shortName": "AUK",
-  "logo": "/media/logo.png",
+  "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/logo.png",
   "tagline": "The UK’s leading independent multimedia publisher and distributor",
   "description": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor.",
   "intro": "Andrews UK Limited, founded in the year 2000, is the UK’s leading indie publisher and distributor. As well as its own wide range of book imprints across many genres, Andrews UK Limited also provides global distribution to other publishers and IP owners.",

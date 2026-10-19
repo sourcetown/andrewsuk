@@ -2,7 +2,7 @@
   {
     "key": "amazon",
     "name": "Amazon",
-    "logo": "/media/partners/amazon.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/amazon.jpg",
     "categories": [
       "books",
       "video",
@@ -13,7 +13,7 @@
   {
     "key": "antstream",
     "name": "Antstream",
-    "logo": "/media/partners/antstream.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/antstream.jpg",
     "categories": [
       "games"
     ],
@@ -22,7 +22,7 @@
   {
     "key": "apple-tv",
     "name": "Apple TV",
-    "logo": "/media/partners/apple-tv.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/apple-tv.jpg",
     "categories": [
       "video"
     ],
@@ -31,7 +31,7 @@
   {
     "key": "audible",
     "name": "Audible",
-    "logo": "/media/partners/audible.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/audible.jpg",
     "categories": [
       "audio"
     ],
@@ -40,7 +40,7 @@
   {
     "key": "audiobooks-nz",
     "name": "Audiobooks NZ",
-    "logo": "/media/partners/audiobooks-nz.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/audiobooks-nz.jpg",
     "categories": [
       "audio"
     ],
@@ -49,7 +49,7 @@
   {
     "key": "axiell",
     "name": "Axiell",
-    "logo": "/media/partners/axiell.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/axiell.jpg",
     "categories": [
       "books"
     ],
@@ -58,7 +58,7 @@
   {
     "key": "baker-and-taylor",
     "name": "Baker & Taylor",
-    "logo": "/media/partners/baker-and-taylor.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/baker-and-taylor.jpg",
     "categories": [
       "books"
     ],
@@ -67,7 +67,7 @@
   {
     "key": "barnes-and-noble",
     "name": "Barnes and Noble",
-    "logo": "/media/partners/barnes-and-noble.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/barnes-and-noble.jpg",
     "categories": [
       "books"
     ],
@@ -76,7 +76,7 @@
   {
     "key": "beek",
     "name": "Beek",
-    "logo": "/media/partners/beek.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/beek.jpg",
     "categories": [
       "audio"
     ],
@@ -85,7 +85,7 @@
   {
     "key": "believe",
     "name": "Believe",
-    "logo": "/media/partners/believe.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/believe.jpg",
     "categories": [
       "audio"
     ],
@@ -94,7 +94,7 @@
   {
     "key": "castify",
     "name": "Castify",
-    "logo": "/media/partners/castify.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/castify.jpg",
     "categories": [
       "video"
     ],
@@ -103,7 +103,7 @@
   {
     "key": "ebay",
     "name": "eBay",
-    "logo": "/media/partners/ebay.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/ebay.jpg",
     "categories": [
       "merchandise"
     ],
@@ -112,7 +112,7 @@
   {
     "key": "estories",
     "name": "eStories",
-    "logo": "/media/partners/estories.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/estories.jpg",
     "categories": [
       "audio"
     ],
@@ -121,7 +121,7 @@
   {
     "key": "exposure",
     "name": "Exposure",
-    "logo": "/media/partners/exposure.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/exposure.jpg",
     "categories": [
       "video"
     ],
@@ -130,7 +130,7 @@
   {
     "key": "findaway-voices",
     "name": "Findaway Voices",
-    "logo": "/media/partners/findaway-voices.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/findaway-voices.jpg",
     "categories": [
       "audio"
     ],
@@ -139,7 +139,7 @@
   {
     "key": "gardners",
     "name": "Gardners",
-    "logo": "/media/partners/gardners.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/gardners.jpg",
     "categories": [
       "books"
     ],
@@ -148,7 +148,7 @@
   {
     "key": "google-play",
     "name": "Google Play",
-    "logo": "/media/partners/google-play.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/google-play.jpg",
     "categories": [
       "books",
       "audio",
@@ -159,7 +159,7 @@
   {
     "key": "ibookstore",
     "name": "iBookstore",
-    "logo": "/media/partners/ibookstore.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/ibookstore.jpg",
     "categories": [
       "books",
       "audio"
@@ -169,7 +169,7 @@
   {
     "key": "ingram",
     "name": "Ingram",
-    "logo": "/media/partners/ingram.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/ingram.jpg",
     "categories": [
       "books"
     ],
@@ -178,7 +178,7 @@
   {
     "key": "kobo",
     "name": "Kobo",
-    "logo": "/media/partners/kobo.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/kobo.jpg",
     "categories": [
       "books"
     ],
@@ -187,14 +187,14 @@
   {
     "key": "leamos",
     "name": "Leamos",
-    "logo": "/media/partners/leamos.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/leamos.jpg",
     "categories": [],
     "featured": true
   },
   {
     "key": "libro-fm",
     "name": "Libro.fm",
-    "logo": "/media/partners/libro-fm.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/libro-fm.jpg",
     "categories": [
       "audio"
     ],
@@ -203,7 +203,7 @@
   {
     "key": "microsoft",
     "name": "Microsoft",
-    "logo": "/media/partners/microsoft.png",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/microsoft.png",
     "categories": [
       "games"
     ],
@@ -212,7 +212,7 @@
   {
     "key": "newsstand",
     "name": "Newsstand",
-    "logo": "/media/partners/newsstand.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/newsstand.jpg",
     "categories": [
       "magazines"
     ],
@@ -221,7 +221,7 @@
   {
     "key": "nextory",
     "name": "Nextory",
-    "logo": "/media/partners/nextory.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/nextory.jpg",
     "categories": [
       "audio"
     ],
@@ -230,7 +230,7 @@
   {
     "key": "nintendo",
     "name": "Nintendo",
-    "logo": "/media/partners/nintendo.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/nintendo.jpg",
     "categories": [
       "games"
     ],
@@ -239,7 +239,7 @@
   {
     "key": "ott-studio",
     "name": "OTT Studio",
-    "logo": "/media/partners/ott-studio.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/ott-studio.jpg",
     "categories": [
       "video"
     ],
@@ -248,7 +248,7 @@
   {
     "key": "overdrive",
     "name": "OverDrive",
-    "logo": "/media/partners/overdrive.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/overdrive.jpg",
     "categories": [
       "books",
       "audio"
@@ -258,7 +258,7 @@
   {
     "key": "prime-video",
     "name": "Prime Video",
-    "logo": "/media/partners/prime-video.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/prime-video.jpg",
     "categories": [
       "video"
     ],
@@ -267,7 +267,7 @@
   {
     "key": "readly",
     "name": "Readly",
-    "logo": "/media/partners/readly.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/readly.jpg",
     "categories": [
       "magazines"
     ],
@@ -276,7 +276,7 @@
   {
     "key": "redbubble",
     "name": "Redbubble",
-    "logo": "/media/partners/redbubble.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/redbubble.jpg",
     "categories": [
       "merchandise"
     ],
@@ -285,14 +285,14 @@
   {
     "key": "rewarded",
     "name": "Rewarded",
-    "logo": "/media/partners/rewarded.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/rewarded.jpg",
     "categories": [],
     "featured": true
   },
   {
     "key": "sainsburys",
     "name": "Sainsbury’s",
-    "logo": "/media/partners/sainsburys.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/sainsburys.jpg",
     "categories": [
       "magazines"
     ],
@@ -301,7 +301,7 @@
   {
     "key": "scribd",
     "name": "Scribd",
-    "logo": "/media/partners/scribd.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/scribd.jpg",
     "categories": [
       "books",
       "audio"
@@ -311,7 +311,7 @@
   {
     "key": "sony",
     "name": "Sony",
-    "logo": "/media/partners/sony.svg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/sony.svg",
     "categories": [
       "games"
     ],
@@ -320,7 +320,7 @@
   {
     "key": "spotify",
     "name": "Spotify",
-    "logo": "/media/partners/spotify.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/spotify.jpg",
     "categories": [
       "audio"
     ],
@@ -329,7 +329,7 @@
   {
     "key": "steam",
     "name": "Steam",
-    "logo": "/media/partners/steam.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/steam.jpg",
     "categories": [
       "games"
     ],
@@ -338,7 +338,7 @@
   {
     "key": "storytel",
     "name": "Storytel",
-    "logo": "/media/partners/storytel.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/storytel.jpg",
     "categories": [
       "audio"
     ],
@@ -347,7 +347,7 @@
   {
     "key": "teepublic",
     "name": "TeePublic",
-    "logo": "/media/partners/teepublic.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/teepublic.jpg",
     "categories": [
       "merchandise"
     ],
@@ -356,7 +356,7 @@
   {
     "key": "tubi",
     "name": "Tubi",
-    "logo": "/media/partners/tubi.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/tubi.jpg",
     "categories": [
       "video"
     ],
@@ -365,7 +365,7 @@
   {
     "key": "ubook",
     "name": "Ubook",
-    "logo": "/media/partners/ubook.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/ubook.jpg",
     "categories": [
       "audio"
     ],
@@ -374,7 +374,7 @@
   {
     "key": "waitrose",
     "name": "Waitrose",
-    "logo": "/media/partners/waitrose.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/waitrose.jpg",
     "categories": [
       "magazines"
     ],
@@ -383,7 +383,7 @@
   {
     "key": "wh-smith",
     "name": "WH Smith",
-    "logo": "/media/partners/wh-smith.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/wh-smith.jpg",
     "categories": [
       "books"
     ],
@@ -392,7 +392,7 @@
   {
     "key": "youtube",
     "name": "YouTube",
-    "logo": "/media/partners/youtube.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/youtube.jpg",
     "categories": [
       "video"
     ],
@@ -401,7 +401,7 @@
   {
     "key": "zebralution",
     "name": "Zebralution",
-    "logo": "/media/partners/zebralution.jpg",
+    "logo": "https://greemo-andrewsuk.s3.eu-west-2.amazonaws.com/media/partners/zebralution.jpg",
     "categories": [
       "audio"
     ],
