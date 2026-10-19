@@ -1,10 +1,6 @@
 {
   "dataDelivery": "static",
   "collections": {
-    "partners": {
-      "source": "json",
-      "url": "/data/partners.json"
-    },
     "services": {
       "source": "json",
       "url": "/data/services.json"
@@ -12,6 +8,10 @@
     "company": {
       "source": "json",
       "url": "/data/company.json"
+    },
+    "partners": {
+      "source": "json",
+      "url": "/data/partners.json"
     },
     "menu": {
       "source": "json",
@@ -21,13 +21,13 @@
       "source": "json",
       "url": "/data/brands.json"
     },
-    "testimonials": {
-      "source": "json",
-      "url": "/data/testimonials.json"
-    },
     "faqs": {
       "source": "json",
       "url": "/data/faqs.json"
+    },
+    "testimonials": {
+      "source": "json",
+      "url": "/data/testimonials.json"
     }
   }
 }
