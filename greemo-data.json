@@ -5,10 +5,6 @@
       "source": "json",
       "url": "/data/partners.json"
     },
-    "menu": {
-      "source": "json",
-      "url": "/data/menu.json"
-    },
     "services": {
       "source": "json",
       "url": "/data/services.json"
@@ -17,13 +13,17 @@
       "source": "json",
       "url": "/data/company.json"
     },
-    "testimonials": {
+    "menu": {
       "source": "json",
-      "url": "/data/testimonials.json"
+      "url": "/data/menu.json"
     },
     "brands": {
       "source": "json",
       "url": "/data/brands.json"
+    },
+    "testimonials": {
+      "source": "json",
+      "url": "/data/testimonials.json"
     },
     "faqs": {
       "source": "json",
