@@ -1,6 +1,6 @@
 {
   "title": "Andrews UK",
-  "description": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor",
+  "description": "AUK is the UK\u2019s leading global independent eBook and physical book publisher and distributor",
   "keywords": [],
   "theme": {
     "name": "andrewsuk",
@@ -41,7 +41,7 @@
     },
     "git": {
       "enabled": true,
-      "repoUrl": "https://github.com/sourcetown/andrewsuk.git",
+      "repoUrl": "https://github.com/sourcetown/greemo-site-andrewsuk.git",
       "branch": "main",
       "buildBranch": "gh-pages",
       "remote": "origin",
