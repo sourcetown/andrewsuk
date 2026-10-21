@@ -10,7 +10,7 @@ import { useRoute } from 'vue-router'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import { pages } from './utils/pages'
-import { layouts, shellFor } from './utils/layouts'
+import { layouts, shellForPage } from './utils/layouts'
 
 const vueFiles = import.meta.glob('./components/**/*.vue')
 const route = useRoute()
@@ -23,8 +23,8 @@ function viewFor(template, fallback) {
 }
 
 const shell = computed(() => {
-  const page = pages.find(item => item.path === route.path)
-  return shellFor(layouts, page?.meta?.themeLayout)
+  const page = pages.find(item => item.name === route.name) || pages.find(item => item.path === route.path)
+  return shellForPage(layouts, page)
 })
 
 const headerView = computed(() => viewFor(shell.value.header?.template, Header))

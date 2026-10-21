@@ -1,6 +1,7 @@
 ---
 title: For publishers
 description: Publishing and distribution models for publishers of every size.
+themeLayout: single
 ---
 
 <!-- template name="page-head" {"eyebrow":"For publishers","title":"An option for every publisher","lede":"We have multiple different models for publishers wishing to work with us, meaning there is an option for all budgets, all sizes of publisher, and all manner of physical and digital strategies.","split":true} -->

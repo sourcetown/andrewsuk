@@ -1,6 +1,7 @@
 ---
 title: Privacy policy
 description: How Andrews UK Ltd collects and uses personal data.
+themeLayout: single
 ---
 
 <!-- template name="page-head" {"eyebrow":"Legal","title":"Privacy policy","lede":"Andrews UK Ltd. Last updated 6th February 2024."} -->

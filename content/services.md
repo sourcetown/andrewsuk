@@ -2,6 +2,7 @@
 title: Services
 description: Book, audio, video, games, magazine and merchandise distribution from Andrews UK.
 kind: list
+themeLayout: list
 collection: services
 ---
 

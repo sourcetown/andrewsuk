@@ -1,6 +1,7 @@
 ---
 title: About
 description: About Andrews UK Limited, the UK’s leading indie publisher and distributor, founded in 2000.
+themeLayout: single
 ---
 
 <!-- template name="page-head" {"__dataset__":"company","eyebrow":"About us","title":"Publishing and distribution, under one roof","ledeField":"intro","split":true} -->

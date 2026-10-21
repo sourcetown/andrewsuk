@@ -1,6 +1,7 @@
 ---
 title: Imprints
 description: The book imprints and publishing companies of Andrews UK.
+themeLayout: single
 ---
 
 <!-- template name="page-head" {"eyebrow":"Book imprints","title":"Our imprints","lede":"We have multiple imprints we publish under, as well as a completely separate book publishing company which was founded in 1898."} -->

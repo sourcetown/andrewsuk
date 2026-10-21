@@ -2,7 +2,8 @@
   "folders": [
     "brands",
     "imprints",
-    "partners"
+    "partners",
+    "favicons"
   ],
   "tags": [],
   "items": [
@@ -736,6 +737,66 @@
       "mime": "image/png",
       "url": "/media/logo.png",
       "localPath": "sites/andrewsuk/media/logo.png",
+      "storage": "local"
+    },
+    {
+      "id": "dfd92b53-be8a-43b2-9469-e4806db57080",
+      "uploadedAt": "2026-10-19T09:08:54.000Z",
+      "name": "favicon-16x16.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/favicon-16x16.png",
+      "localPath": "sites/andrewsuk/media/favicons/favicon-16x16.png",
+      "storage": "local"
+    },
+    {
+      "id": "0a797bc7-e981-44af-b154-18697fb2c24b",
+      "uploadedAt": "2026-10-19T09:08:54.000Z",
+      "name": "favicon-32x32.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/favicon-32x32.png",
+      "localPath": "sites/andrewsuk/media/favicons/favicon-32x32.png",
+      "storage": "local"
+    },
+    {
+      "id": "6ddb8c18-0000-4714-ade7-664d7da33945",
+      "uploadedAt": "2026-10-19T09:08:54.000Z",
+      "name": "apple-touch-icon.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/apple-touch-icon.png",
+      "localPath": "sites/andrewsuk/media/favicons/apple-touch-icon.png",
+      "storage": "local"
+    },
+    {
+      "id": "36a86f0b-c820-4106-b904-072b9ad1ab76",
+      "uploadedAt": "2026-10-19T09:08:54.000Z",
+      "name": "android-chrome-192x192.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/android-chrome-192x192.png",
+      "localPath": "sites/andrewsuk/media/favicons/android-chrome-192x192.png",
+      "storage": "local"
+    },
+    {
+      "id": "e36f8427-1111-4772-b1a5-f6b897d3470c",
+      "uploadedAt": "2026-10-19T09:08:54.000Z",
+      "name": "android-chrome-512x512.png",
+      "folder": "favicons",
+      "tags": [],
+      "collections": [],
+      "mime": "image/png",
+      "url": "/media/favicons/android-chrome-512x512.png",
+      "localPath": "sites/andrewsuk/media/favicons/android-chrome-512x512.png",
       "storage": "local"
     }
   ]

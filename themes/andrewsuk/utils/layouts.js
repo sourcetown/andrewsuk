@@ -17,3 +17,28 @@ export function shellFor(all, layoutId) {
     footer: all.find(item => item.id === layout.footer && item.kind === 'footer') || null
   }
 }
+
+function pageLayoutKind(page) {
+  const meta = page?.meta || {}
+  let kind = String(meta.kind || '').trim().toLowerCase()
+  if (kind === 'homepage') kind = 'home'
+  if (kind === 'index') kind = 'list'
+  if (kind === 'static') kind = 'single'
+  if (!kind) {
+    const name = page?.name || ''
+    kind = name === 'home' || name === 'index' ? 'home' : 'single'
+  }
+  return ['home', 'single', 'list', 'detail'].includes(kind) ? kind : 'single'
+}
+
+/** Saved themeLayout wins. Otherwise the only layout of this page type is used. */
+export function layoutForPage(all, page) {
+  const saved = all.find(item => item.id === page?.meta?.themeLayout)
+  if (saved && saved.kind !== 'header' && saved.kind !== 'footer') return saved
+  const matches = all.filter(item => item.kind === pageLayoutKind(page))
+  return matches.length === 1 ? matches[0] : null
+}
+
+export function shellForPage(all, page) {
+  return shellFor(all, layoutForPage(all, page)?.id)
+}

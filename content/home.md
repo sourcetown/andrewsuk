@@ -2,6 +2,7 @@
 title: Andrews UK | The UK’s leading independent publisher
 description: AUK is the UK’s leading global independent eBook and physical book publisher and distributor
 kind: home
+themeLayout: home
 ---
 
 <!-- template name="hero" {"__dataset__":"company","eyebrow":"Independent since 2000","title":"The UK’s leading independent *multimedia* publisher and distributor","lede":"As well as its own wide range of book imprints across many genres, Andrews UK Limited also provides global distribution to other publishers and IP owners.","image":"/media/book.png","primaryCta":{"label":"Work with us","path":"/publishers"},"secondaryCta":{"label":"Our imprints","path":"/imprints"}} -->

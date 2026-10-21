@@ -2,9 +2,10 @@
 title: Service
 description: Distribution services from Andrews UK.
 kind: detail
+themeLayout: detail
 collection: services
-objectKey: audio
-path: /services/:key
+objectKey: games
+path: "/services/:key"
 ---
 
 <!-- template name="service-hero" {"__dataset__":"services","cta":{"label":"Talk to us","path":"/contact"}} -->

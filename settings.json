@@ -1,6 +1,6 @@
 {
   "title": "Andrews UK",
-  "description": "AUK is the UK\u2019s leading global independent eBook and physical book publisher and distributor",
+  "description": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor",
   "keywords": [],
   "theme": {
     "name": "andrewsuk",
@@ -22,15 +22,15 @@
   },
   "author": "",
   "domain": "",
-  "favicon": "",
+  "favicon": "/media/favicons/favicon-32x32.png",
   "favicons": {
+    "favicon16": "/media/favicons/favicon-16x16.png",
+    "favicon32": "/media/favicons/favicon-32x32.png",
+    "appleTouchIcon": "/media/favicons/apple-touch-icon.png",
+    "androidChrome192": "/media/favicons/android-chrome-192x192.png",
+    "androidChrome512": "/media/favicons/android-chrome-512x512.png",
     "svg": "",
-    "default": "",
-    "appleTouchIcon": "",
-    "androidChrome192": "",
-    "androidChrome512": "",
-    "favicon16": "",
-    "favicon32": ""
+    "default": "/media/favicons/favicon-32x32.png"
   },
   "social": [],
   "deployment": {
