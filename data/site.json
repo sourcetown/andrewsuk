@@ -1,0 +1,21 @@
+{
+  "siteUrl": "https://andrewsuk.com",
+  "siteName": "Andrews UK",
+  "siteDescription": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor",
+  "keywords": [],
+  "theme": {
+    "name": "andrewsuk",
+    "primaryColor": "#17795F",
+    "secondaryColor": "#24C494",
+    "fontFamily": "Manrope, system-ui, sans-serif",
+    "googleFont": "Manrope",
+    "googleFontWeights": [
+      "400",
+      "500",
+      "600",
+      "700"
+    ]
+  },
+  "title": "Andrews UK",
+  "description": "AUK is the UK’s leading global independent eBook and physical book publisher and distributor"
+}
